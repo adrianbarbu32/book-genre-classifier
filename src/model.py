@@ -153,7 +153,7 @@ references = pandas.DataFrame({
 print("Comparison on the test books:")
 print(references.to_string(index = False))
  
-# Confusion matrix (image 2 in the report)
+# Confusion matrix
 display = ConfusionMatrixDisplay.from_predictions(y_test, predictions, cmap = "Blues")
 display.ax_.set_title("Confusion matrix on the test books")
 display.figure_.tight_layout()
