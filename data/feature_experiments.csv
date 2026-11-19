@@ -1,0 +1,16 @@
+Experiment,Accuracy,AccuracyStd,F1,F1Std
+1. Baseline (most frequent class),0.63,0.013,0.387,0.005
+2. Title patterns only,0.797,0.059,0.796,0.058
+"3. Description, word presence",0.786,0.068,0.74,0.092
+"4. Presence, stop words removed",0.773,0.072,0.722,0.1
+"5.1 Presence, min_df = 2",0.789,0.064,0.748,0.083
+"5.2 Presence, min_df = 3",0.799,0.061,0.764,0.08
+"5.3 Presence, min_df = 4",0.799,0.058,0.766,0.076
+"5.4 Presence, min_df = 5",0.79,0.056,0.756,0.071
+"6.1 Presence, no stop words, min_df = 2",0.789,0.082,0.752,0.1
+"6.2 Presence, no stop words, min_df = 3",0.772,0.068,0.739,0.08
+"6.3 Presence, no stop words, min_df = 4",0.789,0.074,0.757,0.09
+"6.4 Presence, no stop words, min_df = 5",0.781,0.068,0.746,0.087
+7. Description + title,0.838,0.051,0.816,0.062
+8. Description + title + patterns,0.878,0.046,0.864,0.054
+9. Description + title + patterns + bigrams,0.871,0.053,0.854,0.063

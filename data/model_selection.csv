@@ -1,0 +1,6 @@
+Model,Accuracy,AccuracyStd,F1,F1Std
+1. Baseline (most frequent class),0.63,0.013,0.387,0.005
+2. LogisticRegression,0.878,0.046,0.864,0.054
+3. BernoulliNB,0.88,0.057,0.873,0.058
+4. LinearSVC,0.872,0.054,0.861,0.06
+5. RandomForestClassifier,0.829,0.074,0.787,0.104
